@@ -1,0 +1,89 @@
+body {
+    background: rgb(171, 180, 238);
+    background: radial-gradient(circle, rgba(171, 180, 238, 1) 0%, rgba(233, 6, 6, 1) 100%);
+}
+
+.quarteirao {
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 800px;
+    letter-spacing: 0, 5px;
+}
+
+.titulo {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.chamada {
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-style: italic;
+    font-weight: bolder;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    box-shadow: 4px 5px 18px 1px #c21b1b;
+    background: linear-gradient(to bottom, #011205 5%, #ff1c1c 100%);
+    background-color: #011205;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #cfd6d0;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 26px;
+    padding: 3px 56px;
+    text-decoration: none;
+    text-shadow: -1px -1px 11px #424661;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #ff1c1c 5%, #011205 100%);
+    background-color: #ff1c1c;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.botao {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitulo {
+    position: absolute;
+    top: 65%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.tutorial {
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-style: italic;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
