@@ -32,7 +32,7 @@ function faseTresGeovani(geovaniEscolhas) {
         alert("Ele liga para a pessoa do date, explica tudo que aconteceu e a convida para assistir uma série em casa. A pessoa aceitou e Geovanni conseguiu o date e ainda economizou uma graninha.")
         return location = "./index.html"
     } if (geovaniEscolhas == 2) {
-        alert("Ele liga para a pessoa do date, explica tudo que aconteceu e a convida para assistir uma série em casa. A pessoa aceitou e Geovanni conseguiu o date e ainda economizou uma graninha.")
+        alert("Ele pede cerveja pelo aplicativo e assiste videos de lock picking até dormir. Quando acorda, Geovanni vê que gastou R$200 em cerveja e ficou sem nenhum tostão. Se Laxcou!")
         return location = "./index.html"
     }
 }
