@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 var botao = document.getElementById("btn");
 botao.addEventListener('click', function (mostraMsg) {
     mostraMsg = prompt("Você quer jogar?\nDigite sim ou não")
@@ -12,7 +10,7 @@ botao.addEventListener('click', function (mostraMsg) {
         alert("Essa opção não foi encontrada, tente novamente.")
     }
 })
-=======
+
 var botao = document.getElementById("btn");
 botao.addEventListener('click', function (mostraMsg) {
     mostraMsg = prompt("Você quer jogar?\nDigite sim ou não")
@@ -25,8 +23,6 @@ botao.addEventListener('click', function (mostraMsg) {
         alert("Essa opção não foi encontrada, tente novamente.")
     }
 })
->>>>>>> 7553f98b455e166d02a9876459fffc2ef287fed4
-=======
 var botao = document.getElementById("btn");
 botao.addEventListener('click', function (mostraMsg) {
     mostraMsg = prompt("Você quer jogar?\nDigite sim ou não")
@@ -39,4 +35,3 @@ botao.addEventListener('click', function (mostraMsg) {
         alert("Essa opção não foi encontrada, tente novamente.")
     }
 })
->>>>>>> 7553f98b455e166d02a9876459fffc2ef287fed4
