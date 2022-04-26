@@ -17,24 +17,24 @@ function faseDois(adalbertoEscolhas) {
     adalbertoEscolhas = prompt("1-Chamar o chefe e explicar o motivo do atraso \n2- Entrar na reunião sem explicações sobr o atraso")
     while (adalbertoEscolhas != 1 && adalbertoEscolhas != 2) {
         adalbertoEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
-    }if(adalbertoEscolhas==1){
+    } if (adalbertoEscolhas == 1) {
         alert("Adalberto chamou o chefe em um momento em que ele não estava falando na reunião e explicou o ocorrido, justificando o atraso, ao terminar a reunião o chefe o chama no escritório e ele consegue a promoção, por que o chefe valoriza o relacionamento dele como os subordinados e valoriza a conduta tomada. Adalberto volta ao hospital e conta para a companheira que foi promovido.")
         return location = "./index.html"
-    }else{
+    } else {
         faseTres()
     }
 }
 
-function faseTres(adalbertoEscolhas){
-     alert("Na reunião ele passa por uma situação terrível, onde o chefe o humilha publicamente")
+function faseTres(adalbertoEscolhas) {
+    alert("Na reunião ele passa por uma situação terrível, onde o chefe o humilha publicamente")
     adalbertoEscolhas = prompt("1- Adalberto recebe a humilhação, não fala nada e se retira da sala de reuniões\n2- Adalberto se desculpa pelo atraso e informa eufórico para todos da sala que sua companheira entrou em trabalho de parto")
     while (adalbertoEscolhas != 1 && adalbertoEscolhas != 2) {
         adalbertoEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
-    }if(adalbertoEscolhas==1){
+    } if (adalbertoEscolhas == 1) {
         alert("Após a reunião ele é chamado na sala do chefe, e recebe a notícia de que está sendo demitido. Adalberto não se comunicou corretamente com a liderança, e ninguém sabia da sua situação, foi demitido e se Laxcou!")
         return location = "./index.html"
-    }if(adalbertoEscolhas==2){
-       alert("Adalberto é chamado na sala do chefe que se sentiu ofendido com a conduta em reunião, e exige que para não o demitir que Adalberto demita 5 funcionários de sua equipe. Adalberto demite os 5 funcionários, não consegue a promoção e agora tem que entregar o mesmo resultado com 5 funcionários a menos, ele e os empregados se Laxcaram!")
-       return location = "./index.html"
+    } if (adalbertoEscolhas == 2) {
+        alert("Adalberto é chamado na sala do chefe que se sentiu ofendido com a conduta em reunião, e exige que para não o demitir que Adalberto demita 5 funcionários de sua equipe. Adalberto demite os 5 funcionários, não consegue a promoção e agora tem que entregar o mesmo resultado com 5 funcionários a menos, ele e os empregados se Laxcaram!")
+        return location = "./index.html"
     }
 }
