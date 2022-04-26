@@ -6,7 +6,7 @@ nat.addEventListener('click', function (nataliaEscolhas) {
         nataliaEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (nataliaEscolhas == 2) {
         alert("Natalia chega na hora no trabalho e realiza todas as atividades do dia. A reunião que ela perdeu era sobre o desempenho do filho na escola, e como ela não soube disso ele acabou repetindo de ano, e se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseDoisNatalia()
     }
@@ -18,7 +18,7 @@ function faseDoisNatalia(nataliaEscolhas) {
         nataliaEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (nataliaEscolhas == 2) {
         alert("Natália tenta conversar com o chefe, e diz que isso não é possível, pois ela tem o filho e o curso e muitas responsabilidades. Natalia argumentou bem e conseguiu negociar com o chefe, mas terá que trabalhar neste sábado, que é o aniversário de seu filho, e se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseTresNatalia()
     }
@@ -33,6 +33,6 @@ function faseTresNatalia(nataliaEscolhas) {
         return location = "./index.html"
     } if (nataliaEscolhas == 2) {
         alert("Natalia pede para a amiga buscar o filho na escola e corre para o curso. Natalia consegue fazer a apresentação no curso com sucesso e foi convidada para participar de um processo seletivo, chegando em casa pediu uma pizza para comemorar com o filho")
-        return location = "./index.html"
+        return location = "../index.html"
     }
 }

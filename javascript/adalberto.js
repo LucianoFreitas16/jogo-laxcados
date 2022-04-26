@@ -6,7 +6,7 @@ adalba.addEventListener('click', function (adalbertoEscolhas) {
         adalbertoEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (adalbertoEscolhas == 1) {
         alert("Adalberto levou a mulher para o hospital, passou o dia inteiro lá e perdeu a reunião. No dia seguinte, quando Adalberto chegou ao trabalho, chamou o chefe para conversar e soube que não havia mais chances de ser promovido, pois a vaga foi preenchida na reunião de ontem. Adalberto se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseDois()
     }
@@ -19,7 +19,7 @@ function faseDois(adalbertoEscolhas) {
         adalbertoEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (adalbertoEscolhas == 1) {
         alert("Adalberto chamou o chefe em um momento em que ele não estava falando na reunião e explicou o ocorrido, justificando o atraso, ao terminar a reunião o chefe o chama no escritório e ele consegue a promoção, por que o chefe valoriza o relacionamento dele como os subordinados e valoriza a conduta tomada. Adalberto volta ao hospital e conta para a companheira que foi promovido.")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseTres()
     }
@@ -32,9 +32,9 @@ function faseTres(adalbertoEscolhas) {
         adalbertoEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (adalbertoEscolhas == 1) {
         alert("Após a reunião ele é chamado na sala do chefe, e recebe a notícia de que está sendo demitido. Adalberto não se comunicou corretamente com a liderança, e ninguém sabia da sua situação, foi demitido e se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     } if (adalbertoEscolhas == 2) {
         alert("Adalberto é chamado na sala do chefe que se sentiu ofendido com a conduta em reunião, e exige que para não o demitir que Adalberto demita 5 funcionários de sua equipe. Adalberto demite os 5 funcionários, não consegue a promoção e agora tem que entregar o mesmo resultado com 5 funcionários a menos, ele e os empregados se Laxcaram!")
-        return location = "./index.html"
+        return location = "../index.html"
     }
 }

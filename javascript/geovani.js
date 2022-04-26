@@ -6,7 +6,7 @@ geo.addEventListener('click', function (geovaniEscolhas) {
         geovaniEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (geovaniEscolhas == 2) {
         alert("Geovanni decide ir de metrô pois assim não dependeria do trânsito, reduziria as chances de atraso e poderia economizar uma grana e beber um pouco mais, ele consegue chegar na hora do encontro, e se diverte muito comendo e bebendo bem")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseDoisGeovani()
     }
@@ -18,7 +18,7 @@ function faseDoisGeovani(geovaniEscolhas) {
         geovaniEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (geovaniEscolhas == 2) {
         alert("Geovanni deixa o carro numa calçada e vai pro date de ônibus. O Carro é rebocado pela prefeitura e Geovanni precisa pagar uma multa de R$500, mas ele gastou R$200 no date e agora se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     } else {
         faseTresGeovani()
     }
@@ -30,9 +30,9 @@ function faseTresGeovani(geovaniEscolhas) {
         geovaniEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (geovaniEscolhas == 1) {
         alert("Ele liga para a pessoa do date, explica tudo que aconteceu e a convida para assistir uma série em casa. A pessoa aceitou e Geovanni conseguiu o date e ainda economizou uma graninha.")
-        return location = "./index.html"
+        return location = "../index.html"
     } if (geovaniEscolhas == 2) {
         alert("Ele pede cerveja pelo aplicativo e assiste videos de lock picking até dormir. Quando acorda, Geovanni vê que gastou R$200 em cerveja e ficou sem nenhum tostão. Se Laxcou!")
-        return location = "./index.html"
+        return location = "../index.html"
     }
 }
