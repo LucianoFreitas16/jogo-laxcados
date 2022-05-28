@@ -18,7 +18,7 @@ function faseDoisGeovani(geovaniEscolhas) {
         geovaniEscolhas = prompt("Resposta inválida, escolha entre 1 ou 2")
     } if (geovaniEscolhas == 2) {
         alert("Geovanni deixa o carro numa calçada e vai pro date de ônibus. O Carro é rebocado pela prefeitura e Geovanni precisa pagar uma multa de R$500, mas ele gastou R$200 no date e agora se Laxcou!")
-        return location = "../index.html"
+        return location = "../game-over.html"
     } else {
         faseTresGeovani()
     }
@@ -33,6 +33,6 @@ function faseTresGeovani(geovaniEscolhas) {
         return location = "../index.html"
     } if (geovaniEscolhas == 2) {
         alert("Ele pede cerveja pelo aplicativo e assiste videos de lock picking até dormir. Quando acorda, Geovanni vê que gastou R$200 em cerveja e ficou sem nenhum tostão. Se Laxcou!")
-        return location = "../index.html"
+        return location = "../game-over.html"
     }
 }
