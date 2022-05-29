@@ -81,4 +81,12 @@ body {
     font-size: 30px;
     margin: auto;
   }
+  .gameOver,.vitoria{
+   font-size: 25px;
+   margin-left: 70px;
+  }
+  #over, #win{
+    margin-left: 150px;
+  }
+  
 }
