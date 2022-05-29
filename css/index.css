@@ -4,9 +4,7 @@ body {
   background-color: rgb(13, 101, 233);
 }
 .quarteirao {
-  font-size: 30px;
-  width: 50%;
-  height: 200px;
+  font-size: 40px;
   margin-left: 30%;
 }
 .escolhas {
@@ -27,7 +25,7 @@ body {
 }
 .buttonIndex {
   font-size: 40px;
-  margin-left: 23%;
+  margin-left: 20%;
   margin-top: 5%;
 }
 #btn,
@@ -41,30 +39,39 @@ body {
   color: white;
 }
 .tituloIndex {
-  font-size: 60px;
-  margin-left: 38%;
+  font-size: 100px;
+  margin-left: 35%;
   margin-top: 8%;
 }
 .tituloEscolha {
-  font-size: 50px;
+  font-size: 70px;
   margin-left: 15%;
   margin-top: 10%;
 }
 .escolhas {
   width: 60%;
-  margin-left: 23%;
+  margin-left: 20%;
   margin-top: 5%;
-  font-size: 30px;
+  font-size: 40px;
 }
-#over, #win {
-  margin-left: 600px;
+#over {
+  margin-left: 850px;
 }
 
-.gameOver,.vitoria {
-  font-size: 50px;
-  margin-left: 30%;
+.gameOver {
+  font-size: 90px;
+  margin-left: 23%;
   margin-top: 12%;
 }
+.vitoria {
+  font-size: 90px;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+#win {
+  margin-left: 800px;
+}
+
 @media only screen and (max-device-width: 900px) {
   .quarteirao {
     display: table-row;
@@ -81,12 +88,13 @@ body {
     font-size: 30px;
     margin: auto;
   }
-  .gameOver,.vitoria{
-   font-size: 25px;
-   margin-left: 70px;
+  .gameOver,
+  .vitoria {
+    font-size: 25px;
+    margin-left: 70px;
   }
-  #over, #win{
+  #over,
+  #win {
     margin-left: 150px;
   }
-  
 }
